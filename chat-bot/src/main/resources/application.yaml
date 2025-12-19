@@ -1,6 +1,10 @@
 spring:
   application:
     name: chat-bot
-
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: qwen3:8b
 server:
-  port: 8089
+  port: 8088
