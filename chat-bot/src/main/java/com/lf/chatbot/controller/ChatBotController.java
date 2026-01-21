@@ -28,9 +28,11 @@ public class ChatBotController {
         DashScopeApi dashScopeApi = DashScopeApi.builder()
                 .apiKey(apiKey)
                 .build();
+
         chatModel = DashScopeChatModel.builder()
                 .dashScopeApi(dashScopeApi)
                 .build();
+        //zhushi
     }
 
     @GetMapping("/general-assistant")
